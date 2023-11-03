@@ -1,0 +1,24 @@
+.card{
+    background-color: rgb(231, 203, 166);
+    perspective: 1000px;
+  position: relative;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .container-fluid{
+    background-color: bisque;
+    padding: 10px;
+  
+  }
+
+  .bg-change{
+    background-color: rgb(225, 116, 37);
+padding: 10px;
+  }
